@@ -1,4 +1,4 @@
-module nullable
+module null
 
 go 1.22
 
