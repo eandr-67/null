@@ -23,6 +23,5 @@ jobs:
 
     - name: Test
       run: |
-        go get .
-        go get gopkg.in/yaml.v3
+        go get -t .
         go test -v ./...
